@@ -1,5 +1,5 @@
 import './App.css'
-import Project from './pages/Project_12'
+import Project from './pages/Project_15'
 
 function App() {
   return (

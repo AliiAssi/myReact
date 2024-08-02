@@ -1,11 +1,11 @@
 import './App.css'
-import Project_7 from './pages/Project_7'
+import Project from './pages/Project_9'
 
 function App() {
   return (
     <>
     <div className="">
-        <Project_7 />
+        <Project />
     </div>
     </>
   )

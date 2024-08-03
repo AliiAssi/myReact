@@ -1,14 +1,8 @@
-import './App.css'
-import Project from './pages/Project_18'
+import "./App.css";
+import Project from "./pages/Project_20";
 
 function App() {
-  return (
-    <>
-    <div className="">
-        <Project />
-    </div>
-    </>
-  )
+  return <Project />;
 }
 
-export default App
+export default App;

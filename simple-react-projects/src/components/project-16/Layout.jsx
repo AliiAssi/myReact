@@ -25,7 +25,6 @@ function Layout() {
                     <p>${product.price}</p>
                   </div>
                 );
-
             }
           )}
         </div>

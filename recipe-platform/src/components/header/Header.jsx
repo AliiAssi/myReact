@@ -2,14 +2,19 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {GlobalContext} from '../../context/GlobalContext';
 import { useContext } from "react";
+import { useNavigate } from 'react-router-dom';
+
 function Header() {
   const location = useLocation();
   const [activeLink, setActiveLink] = useState(location.pathname);
   const [searchTerm, setSearchTerm] = useState("");
   const { state, setState } = useContext(GlobalContext);
+  const navigate = useNavigate();
+
 
   useEffect(() => {
     setState({...state, searchTerm});
+    navigate('/');
   }, [searchTerm]);
 
   // Update active link when route changes

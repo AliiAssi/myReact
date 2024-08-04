@@ -6,6 +6,7 @@ import Index from './pages/index/Index';
 import ContactUs from './pages/contact-us/ContactUs';
 import UserFavorites from './pages/user-favorites/UserFavorites';
 import RecipeDetails from './pages/recipe-details/RecipeDetails';
+import NotFound from './pages/not-found/NotFound';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/user-favorites" element={<UserFavorites />} />
             <Route path="/recipe-details/:id" element={<RecipeDetails />} />
-            <Route path="*" element={<>not found</>} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

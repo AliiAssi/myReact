@@ -14,7 +14,7 @@ To install and configure Tailwind CSS for your project, follow these steps:
 2. **Generate the Tailwind configuration file:**
 
    ```bash
-   npx tailwindcss init
+   npx tailwindcss init -p
    ```
 
    This will create a `tailwind.config.js` file in your project directory.
